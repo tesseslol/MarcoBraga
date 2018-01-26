@@ -1,0 +1,19 @@
+{
+  "name": "hit",
+  "version": "1.0.0",
+  "description": "Site for Ferraris HIT",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tesseslol/VisualDesignSite.git"
+  },
+  "author": "Davide Tessari",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tesseslol/VisualDesignSite/issues"
+  },
+  "homepage": "https://github.com/tesseslol/VisualDesignSite#readme"
+}

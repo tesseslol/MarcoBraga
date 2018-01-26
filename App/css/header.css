@@ -1,0 +1,31 @@
+.navbar-continer {
+  margin-left: 9.06rem;
+  margin-right: 9.06rem;
+  max-width: 1560px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.carosello {
+  background: url(../img/home1.jpeg) no-repeat;
+  background-size: 100% 620px;
+  padding-top: 176px;
+  padding-bottom: 0; /*194*/
+}
+
+.carosello__text {
+  background: rgba(0, 0, 0, .4);
+  display: inline-block;
+}
+
+.carosello::after {
+  display: block;
+  content: "";
+  width: 100%;
+  height: 194px;
+  background: transparent url('../img/patternsbianco.png') bottom center no-repeat;
+  background-size: 1525px 150px;
+}

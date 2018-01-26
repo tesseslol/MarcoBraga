@@ -1,0 +1,55 @@
+.btn {
+  border-radius: 1px;
+}
+
+.bold {
+  font-weight: 500;
+}
+
+body {
+  overflow-x: hidden;
+  padding-top: 78px;
+}
+
+.bg-beje {
+    background-color: #F1EEEC;
+}
+
+.pl-6, .px-6 {
+    padding-left: 4rem;
+}
+.pb-6, .py-6 {
+    padding-bottom: 4rem;
+}
+
+.pr-6, .px-6 {
+    padding-right: 4rem;
+}
+
+.pt-6, .py-6 {
+    padding-top: 4rem;
+}
+
+.ml-6, .mx-6 {
+    margin-left: 4rem;
+}
+.mb-6, .my-6 {
+    margin-bottom: 4rem;
+}
+
+.mr-6, .mx-6 {
+    margin-right: 4rem;
+}
+
+.mt-6, .my-6 {
+    margin-top: 4rem;
+}
+
+.bg-primary {
+    background-color: #60a4c1 !important;
+}
+
+.fix-image {
+   padding-right: 0;
+   padding-left: 0;
+ }
