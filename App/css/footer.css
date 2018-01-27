@@ -8,6 +8,10 @@
     font-weight: bold;
 }
 
+.footer-nav__link:hover {
+    color: #626262;
+}
+
 .footer::before {
     display: block;
     content: "";
