@@ -1,5 +1,14 @@
 .btn {
-  border-radius: 1px;
+  border-radius: 16px;
+}
+
+.btn-rounded {
+    border-radius: .25rem !important;
+}
+
+.btn.btn-primary {
+    color: white;
+    font-weight: 700 !important;
 }
 
 .bold {

@@ -1,0 +1,74 @@
+.old-works__image {
+    height: 14rem;
+}
+
+.last-activity__image{
+    height: 20rem;
+    padding: 0;
+}
+
+.separetor {
+    font-size: 2rem;
+}
+
+.page-a {
+    position: relative;
+    display: block;
+    padding: 0.5rem;
+    content: "";
+    background-color: #a6c358;
+    border: 1px solid #a6c358;
+    border-radius: 100%;
+    margin: auto;
+}
+
+.page-a:hover {
+    border-color: #acc95c;
+    background-color: rgb(146, 172, 77);
+    text-decoration: none;
+}
+
+.page-a.active {
+    border-color: #acc95c;
+    background-color: rgb(146, 172, 77);
+}
+
+.page-next {
+    content: "";
+    background: url("../img/MarcoBraga_freccia.png") no-repeat;
+    background-size: 40% 60%;
+    padding: 2rem;
+}
+
+.page-prev {
+    content: "";
+    background: url("../img/MarcoBraga_Sfreccia.png") no-repeat;
+    background-size: 40% 60%;
+    padding: 2rem;
+    margin-left: 7rem;
+}
+
+
+/* equal card height */
+.row-equal > div[class*='col-'] {
+    display: flex;
+    flex: 1 0 auto;
+}
+
+.row-equal .card {
+   width: 100%;
+}
+
+/* ensure equal card height inside carousel */
+.carousel-inner>.row-equal.active, 
+.carousel-inner>.row-equal.next, 
+.carousel-inner>.row-equal.prev {
+    display: flex;
+}
+
+/* prevent flicker during transition */
+.carousel-inner>.row-equal.active.left, 
+.carousel-inner>.row-equal.active.right {
+    opacity: 0.5;
+    display: flex;
+}
