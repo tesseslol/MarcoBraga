@@ -10,11 +10,34 @@
 }
 
 .carosello {
-  background: url(../img/home1.jpeg) no-repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 176px;
+  padding-bottom: 0;
+}
+
+.carosello.index {
+  background-image: url(../img/home1.jpeg);
+}
+
+.carosello.arboricoltura {
+  background-image: url(../img/stephen-leonardi-369733.jpg);
+  background-position: bottom right;
+}
+
+.carosello.chisiamo {
+   background-image: url(../img/photo-1509825504156-d5113bfa4908.jpeg);
+   background-position: center;
+}
+
+/*.carosello:before {
+  display: block;
+  content: "";
+  background: url(../img/home_sfumatura.png) no-repeat;
   background-size: 100% 100%;
   padding-top: 176px;
-  padding-bottom: 0; /*194*/
-}
+  padding-bottom: 0px;
+}*/
 
 .carosello__text {
   background: rgba(0, 0, 0, .4);

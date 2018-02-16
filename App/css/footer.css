@@ -23,6 +23,6 @@
     background-color: #F1EEEC;
 }
 
-background-clip: border-box;
-border: 1px solid rgba(0, 0, 0, 0.125);
-border-radius: 0.25rem;
+.footer--bg-none::before {
+    background-color: transparent !important;
+}
