@@ -2,6 +2,14 @@
     height: 14rem;
 }
 
+.service-card__image {
+    height: 16rem;
+}
+
+.service-card__title {
+    text-transform: uppercase;
+}
+
 .gallery__image {
     height: 20rem;
 }

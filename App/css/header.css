@@ -30,14 +30,15 @@
    background-position: center;
 }
 
-/*.carosello:before {
-  display: block;
-  content: "";
-  background: url(../img/home_sfumatura.png) no-repeat;
-  background-size: 100% 100%;
-  padding-top: 176px;
-  padding-bottom: 0px;
-}*/
+.carosello.contatti {
+  background-image: url(../img/brandon-green-321795.jpg);
+  background-position: center;
+}
+
+.carosello.servizi {
+  background-image: url(../img/photo-1420442442888-15c96323ec3c.jpeg);
+  background-position: center;
+}
 
 .carosello__text {
   background: rgba(0, 0, 0, .4);
