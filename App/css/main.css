@@ -84,3 +84,9 @@
     opacity: 0.5;
     display: flex;
 }
+
+
+.glossario__parole > nav > a{
+    color: #212529;
+    text-transform: uppercase;
+}
